@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Poppins",sans-serif;
+}
+
+body{
+    background: rgb(236, 232, 243);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #434343;
+    margin-top: 450px;
+    
+    
+}
+
+main.card{
+    display: flex;
+   padding: 30px;
+}
+
+
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    max-height: 256px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+main.cards section.card .icon{
+    height: 50px;
+    width: 50px;
+    
+}
+
+main.cards section.card img{
+    width: 100%;
+}
+
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 88%;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+
+main.cards section.card.calculadora button{
+    background: linear-gradient(to right, #063357bb,#bdb9b9);
+}
+
+
+main.cards section.card.ab button{
+    background: linear-gradient(to right, #eab900,#dfa5077c);
+
+}
+
+main.cards section.card.nota button{
+    background: linear-gradient(to right, #051b63,#0226504b);
+
+}
+
+main.cards section.card.carro button{
+    background: linear-gradient(to right, #ac0702,#b804047c);
+
+}
+
+main.cards section.card.regua button{
+    background: linear-gradient(to right, #e08906,#dfa5079c);
+
+}
+
+main.cards section.card.baixar button{
+    background: linear-gradient(to right, #062ee0,#0b07df6e);
+
+}
+
+
+main.cards section.card.calculadora {
+    box-shadow: 10px 10px 25px -6px #000000 ;
+}
+
+main.cards section.card.ab {
+    box-shadow: 10px 10px 25px -6px  #eab900 ;
+}
+
+main.cards section.card.nota {
+    box-shadow: 10px 10px 25px -6px #051b63 ;
+}
+
+main.cards section.card.carro {
+    box-shadow: 10px 10px 25px -6px  #ac0702 ;
+}
+
+main.cards section.card.regua {
+    box-shadow: 10px 10px 25px -6px   #e08906 ;
+}
+
+main.cards section.card.baixar {
+    box-shadow: 10px 10px 25px -6px   #062ee0;
+}
+
+
+
